@@ -1,31 +1,27 @@
-# Hyderabad Fruit Shop
+# Hyderabad Fruit Shop — React + Vite
 
-Next.js mobile-responsive fruit shop website.
+This version is a plain React + Vite application, not Next.js.
 
 Features:
 - English default
 - English / Telugu switcher in the top-right
-- Language applies across home and fruit details
 - Responsive desktop/tablet/mobile UI
-- Click-to-call buttons
+- Home and fruit detail views
+- Click-to-call
 - No prices
-- Fruit detail pages
 - Fresh fruit images
 
-## Start
+Run:
 npm install
 npm run dev
 
-## IMPORTANT
-Replace `+919999999999` with the real shop number everywhere.
+Production:
+npm run build
 
-## GitHub
-git init
-git add .
-git commit -m "Initial Hyderabad fruit shop"
-git branch -M main
-git remote add origin YOUR_REPOSITORY_URL
-git push -u origin main
+Vercel:
+Framework preset: Vite
+Build command: npm run build
+Output directory: dist
 
-## Vercel
-Import the GitHub repository into Vercel and deploy.
+Replace +919999999999 in src/main.jsx with the real shop phone number.
+Do not upload node_modules.
